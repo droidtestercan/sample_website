@@ -31,6 +31,7 @@
       The tables below don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
+    <h2>Block Elements</h2>
     <table>
       <tr>
         <th>Tag</th>
@@ -92,6 +93,11 @@
         <td>list item</td>
         <td>creates an entry for a list</td>
       </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>blockquote</td>
+        <td>section quoted from another source</td>
+      </tr>
     </table>
     <h2>Inline Elements</h2>
 
@@ -152,6 +158,21 @@
         </td>
         <td><p>In this sentence, <span>this is an inline group</span></p></td>
       </tr>
+      <tr>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>create pretty courier text (measured font) for presenting code in
+        html</td>
+        <td><code>&lt;code&gt;#!/bin/bash #write me a script&lt;/code&gt;</code></td>
+        <td><code>/*this is a css comment*/</code></td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>line break</td>
+        <td>make me a line, no sudo make me a line</td>
+        <td><code>&lt;br&gt;</code></td>
+        <td>This text contains a <br> line breaker!</td>
+      </tr>
     </table>
     <h2>Document Tags</h2>
 
@@ -207,6 +228,16 @@
         <td>
           <code>
             &lt;meta&gt;&lt;&#47;meta&gt;
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>!DOCTYPE</code></td>
+        <td>Document type declaration</td>
+        <td>this is a declaration that you are beginning to write HTML</td>
+        <td>
+          <code>
+            &lt;!DOCTYPE html&gt;
           </code>
         </td>
       </tr>
